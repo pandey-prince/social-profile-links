@@ -1,0 +1,93 @@
+*{
+    font-family:Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+     
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    width:240px;
+    background-color:hsl(0, 0%, 12%) ;
+    border-radius:8px;
+   
+}
+.profile-photo{
+    margin-bottom: 10px;
+    margin-top:10px;
+    transition:transform 0.3s ease;
+}
+.profile-photo img{
+    width:100px;
+    border-radius: 50px;
+
+}
+
+.details{
+    
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.details span{
+    margin-top:7px;
+    font-weight: 400;
+    color:yellow;
+}
+
+.title{
+   
+    font-size:14px;
+    margin-bottom:10px;
+    text-align: center;
+    font-weight: 400;
+   
+}
+
+.social-profiles{
+    
+    display:flex;
+    flex-direction: column;
+
+}
+
+.links{
+    background-color:hsl(0, 0%, 20%);
+    padding-left:40px;
+    padding-bottom:10px;
+    padding-right:40px;
+    padding-top:10px;
+    margin-bottom:10px;
+    
+    text-align: center;
+    font-weight: 600;
+    border-radius:7px;
+    transition: background-color 0.3s ease, color 0.3s ease,transofrom 0.3s ease;
+
+    
+}
+.links:hover{
+    cursor: pointer;
+    background-color: yellow;
+    a{
+        color:black;
+    }
+}
+
+.profile-photo:hover img,
+.links:hover
+{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.links a{
+    text-decoration: none;
+}
